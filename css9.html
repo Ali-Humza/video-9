@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>specificity & cascade</title>
+    <style>
+        h1{
+            color: red;
+        }
+        .a{
+            color: aqua !important;
+        }
+        .b{
+            color: rgb(0, 255, 115);
+        }
+        .c{
+            color: rgb(255, 0, 247);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1  style="color: black;" class="a b c">CSS Specificity</h1>
+    </div>
+    
+</body>
+</html>
